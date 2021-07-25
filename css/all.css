@@ -289,9 +289,38 @@ option {
 }
 
 .goTop {
-  position: absolute;
-  bottom: 110px;
-  right: 350px;
+  position: fixed;
+  bottom: 20%;
+  right: 15%;
+}
+
+.pageList {
+  padding: 20px 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+.pageList li {
+  margin: 0px 10px;
+}
+
+.pageList a {
+  text-decoration: none;
+}
+
+.currentPage {
+  color: #9c9c9c;
+}
+
+.disable {
   display: none;
 }
 /*# sourceMappingURL=all.css.map */

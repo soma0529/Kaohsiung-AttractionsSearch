@@ -194,8 +194,29 @@ option {
     background-color: #559AC8;
 }
 .goTop {
-    position: absolute;
-    bottom: 110px;
-    right: 350px;
+    position: fixed;
+    bottom: 20%;
+    right: 15%;
+}
+
+.pageList {
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    li{
+        margin: 0px 10px;
+    }
+    a {
+        text-decoration: none;
+    };
+}
+
+.currentPage {
+    color: #9c9c9c;
+}
+
+.disable {
     display: none;
 }
